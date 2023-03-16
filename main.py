@@ -1,11 +1,6 @@
-def power_of_3(num):
-    """
-    Cette fonction calcule la puissance en 3 d'un nombre donné.
+def multiply(a, b):
+    return a * b
 
-    Args:
-        num (int): le nombre dont on veut calculer la puissance en 3.
-
-    Returns:
-        int: la puissance en 3 du nombre donné.
-    """
-    return num ** 3
+# Exemple d'utilisation
+result = multiply(3, 5)
+print(result) # affiche 15
