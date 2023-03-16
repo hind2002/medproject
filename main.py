@@ -1,6 +1,9 @@
-def multiply(a, b):
-    return a * b
+"""
+Ce module définit une fonction pour la multiplication de deux nombres.
+"""
 
-# Exemple d'utilisation
-result = multiply(3, 5)
-print(result) # affiche 15
+def multiply(a, b):
+    """
+    Cette fonction prend deux nombres en entrée et retourne leur produit.
+    """
+    return a * b
