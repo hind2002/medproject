@@ -1,5 +1,7 @@
 import pytest
-from main import cubic 
-print(cubic(2))   # Résultat: 8
-print(cubic(3))   # Résultat: 27
-print(cubic(-2))  # Résultat: -8
+from main import cubic
+
+def test_cubic():
+    assert cubic(2) == 8
+    assert cubic(3) == 27
+    assert cubic(-2) == -8
