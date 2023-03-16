@@ -1,4 +1,4 @@
-def multiplication(a, b):
+def multiply(a, b):
     """
     Multiplie deux nombres a et b et retourne le résultat.
     
