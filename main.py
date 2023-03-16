@@ -1,12 +1,9 @@
-def multiply(a, b):
+"""
+Ce module définit une fonction pour la multiplication de deux nombres.
+"""
+
+def multiply(a_num, b_num):
     """
-    Multiplie deux nombres a et b et retourne le résultat.
-    
-    Args:
-    a (float): Le premier nombre.
-    b (float): Le deuxième nombre.
-    
-    Returns:
-    float: Le résultat de la multiplication de a et b.
+    Cette fonction prend deux nombres en entrée et retourne leur produit.
     """
-    return a * b
+    return a_num * b_num
